@@ -122,7 +122,6 @@ astrome/
 
 ### Understanding the Code Structure
 
-- **astrome.js** - Legacy all-in-one implementation
 - **src/index.js** - Modular server entry point
 - **src/config.js** - Centralized configuration
 - **src/api.js** - API request handler
