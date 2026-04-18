@@ -82,7 +82,7 @@ Add to your Claude Desktop configuration (`~/.config/Claude/claude_desktop_confi
   "mcpServers": {
     "astrome": {
       "command": "node",
-      "args": ["/path/to/astrome/astrome.js"],
+      "args": ["/path/to/Astrome/src/index.js"],
       "env": {
         "ASTROLOGY_API_KEY": "your_api_key_here"
       }
@@ -107,7 +107,6 @@ Once connected to Claude, you can ask queries like:
 
 ```
 astrome/
-├── astrome.js              # Main entry point
 ├── package.json            # Dependencies
 ├── .gitignore             # Git ignore rules
 ├── README.md              # This file
@@ -191,7 +190,7 @@ Solution: Ensure `ASTROLOGY_API_KEY` is set in your environment.
 
 ## License
 
-ISC
+MIT License
 
 ## Support
 
